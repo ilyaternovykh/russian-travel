@@ -1,0 +1,4 @@
+.place__paragraph_type_bottom {
+  grid-area: paragraph_bottom;
+  margin-top: 26px;
+}

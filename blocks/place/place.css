@@ -1,0 +1,16 @@
+.place {
+  max-width: 100%;
+  margin: 0;
+  display: grid;
+  grid-column-gap: 40px;
+  grid-row-gap: 0;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: .5fr minmax(min-content, max-content) minmax(min-content, max-content);
+  grid-template-areas:
+    "title website"
+    "image paragraph_top"
+    "image paragraph_bottom"
+    "image .";
+    color: #fff;
+    margin-top: 80px;
+}
