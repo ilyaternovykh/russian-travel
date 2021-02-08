@@ -3,7 +3,7 @@
   max-height: 52px;
   min-width: 90%;
   margin: 0 48px;
-  margin-top: 24px;
+  padding-top: 24px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
