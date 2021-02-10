@@ -26,6 +26,7 @@
 @media screen and (min-width: 1024px) {
   .footer {
     margin-top: 92px;
-
+    padding-right: 48px;
+    padding-left: 48px;
   }
 }

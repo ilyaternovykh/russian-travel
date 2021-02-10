@@ -1,4 +1,12 @@
 .place__paragraph_type_bottom {
   grid-area: paragraph_bottom;
-  margin-top: 26px;
+  margin-top: 25px;
+  padding: 0 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .place__paragraph_type_bottom {
+    grid-area: paragraph_top;
+    margin-top: 26px;
+}
 }
