@@ -19,3 +19,7 @@
     line-height: 18px;
   }
 }
+
+.footer__menu-link:hover {
+  opacity: 0.8;
+}

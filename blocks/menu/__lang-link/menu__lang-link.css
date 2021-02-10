@@ -20,3 +20,7 @@
     line-height: 20px;
   }
 }
+
+.menu__lang-link:hover {
+  opacity: 0.8;
+}

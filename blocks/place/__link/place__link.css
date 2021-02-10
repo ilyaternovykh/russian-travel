@@ -7,4 +7,9 @@
   text-decoration-line: underline;
   color: #fff;
   margin: 0;
+  margin-top: 12px;
+}
+
+.place__link:hover {
+  opacity: 0.8;
 }
