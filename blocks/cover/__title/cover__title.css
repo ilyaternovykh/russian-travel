@@ -15,5 +15,18 @@
     max-width: 560px;
     font-size: 72px;
     line-height: 76px;
+    margin-top: 115px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__title {
+    margin-top: 195px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__title {
+    margin-top: 245px;
   }
 }

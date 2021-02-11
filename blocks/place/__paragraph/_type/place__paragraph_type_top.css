@@ -6,7 +6,7 @@
 
 @media screen and (min-width: 768px) {
     .place__paragraph_type_top {
-      grid-area: paragraph_top;
-      margin-top: 48px;
+      margin: 0;
+      padding: 0;
   }
 }

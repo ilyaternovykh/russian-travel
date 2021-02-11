@@ -46,6 +46,7 @@
 @media screen and (min-width: 1024px) {
   .cover {
     margin-top: 92px;
+    min-height: 640px;
   }
 }
 
