@@ -23,7 +23,6 @@
     "title website"
     "image paragraph_top"
     "image paragraph_bottom";
-    margin-top: 88px;
   }
 }
 
@@ -31,7 +30,6 @@
   .place {
     min-width: 928px;
     grid-column-gap: 32px;
-    margin-top: 92px;
   }
 }
 
