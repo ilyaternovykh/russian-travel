@@ -1,0 +1,10 @@
+.header__lang-element {
+  display: inline-block;
+  margin: 0;
+  margin-right: 18px;
+  padding: 0;
+}
+
+.header__lang-element:last-of-type {
+  margin-right: 0;
+}

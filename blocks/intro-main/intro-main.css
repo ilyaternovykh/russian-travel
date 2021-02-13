@@ -5,10 +5,21 @@
   padding-right: 16px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 929px) {
+  .intro-main {
+    max-width: 928px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 944px) {
   .intro-main {
     padding: 0;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .intro-main {
     max-width: 984px;
-    margin: 0 auto;
   }
 }

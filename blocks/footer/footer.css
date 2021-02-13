@@ -2,16 +2,6 @@
   max-width: 100%;
   padding-left: 16px;
   padding-bottom: 24px;
-  /* max-width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-  margin-top: 92px;
-  color: #fff;
-
-  padding: 0 48px;
-  padding-bottom: 24px; */
 }
 
 @media screen and (min-width: 768px) {
@@ -28,5 +18,12 @@
     margin-top: 92px;
     padding-right: 48px;
     padding-left: 48px;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .footer {
+    max-width: 1184px;
+    margin: 0 auto;
   }
 }
