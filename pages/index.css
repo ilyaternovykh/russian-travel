@@ -31,8 +31,6 @@
 @import url("../blocks/place/__paragraph/place__paragraph.css");
 @import url("../blocks/place/__paragraph/_type/place__paragraph_type_top.css");
 @import url("../blocks/place/__paragraph/_type/place__paragraph_type_bottom.css");
-@import url("../blocks/place/__paragraph/_margin-reset/place__paragraph_margin-reset.css");
-@import url("../blocks/place/__title/_margin-reset/place__title_margin-reset.css");
 @import url("../blocks/cover/cover.css");
 @import url("../blocks/cover/__title/cover__title.css");
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");

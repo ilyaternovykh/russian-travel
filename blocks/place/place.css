@@ -8,6 +8,11 @@
     "image"
     "paragraph_top"
     "paragraph_bottom";
+    padding-top: 50px;
+}
+
+.place:first-of-type {
+  padding-top: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -23,6 +28,7 @@
     "title website"
     "image paragraph_top"
     "image paragraph_bottom";
+    padding-top: 73px;
   }
 }
 
@@ -30,6 +36,7 @@
   .place {
     min-width: 928px;
     grid-column-gap: 32px;
+    padding-top: 80px;
   }
 }
 
