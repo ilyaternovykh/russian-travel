@@ -5,10 +5,12 @@
   line-height: 14px;
   color: #fff;
   margin: 0;
+  margin-top: 48px;
 }
 
 @media screen and (min-width: 768px) {
   .footer__author  {
     line-height: 16px;
+    margin-top: 0;
   }
 }
