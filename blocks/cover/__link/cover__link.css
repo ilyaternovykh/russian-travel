@@ -2,7 +2,60 @@
   display: block;
   width: 100%;
   height: 100%;
+  min-height: 200px;
   text-decoration: none;
   color: #fff;
+  /* align-self: stretch; */
+  background-image: url("../../../images/cover-trains.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* align-self: stretch; */
+}
+
+.cover__link::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
   position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  z-index: -1;
+  transition: all .5s;
+}
+
+.cover__link:hover:before {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__link {
+    min-height: 480px;
+    /* margin-top: 90px; */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__link {
+    /* margin-top: 92px; */
+    min-height: 640px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__link {
+    min-height: 740px;
+    /* max-width: 1184px; */
+  }
 }
