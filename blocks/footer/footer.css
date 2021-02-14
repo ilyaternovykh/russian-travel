@@ -30,8 +30,8 @@
 @media screen and (min-width: 1281px) {
   .footer {
     max-width: 1184px;
-    margin: 0 auto;
-    margin-top: 92px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
     padding-bottom: 24px;
   }
