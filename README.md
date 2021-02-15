@@ -8,4 +8,4 @@
 
 **Ссылка на сайт**
 
-* [Ссылка на сайт](https://ilyaternovykh.github.io/russian-travel/index.html)
+* [Ссылка на сайт](https://ilyaternovykh.github.io/russian-travel/)
